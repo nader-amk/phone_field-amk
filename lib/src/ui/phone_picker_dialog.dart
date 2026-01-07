@@ -79,7 +79,7 @@ class _PhonePickerDialogState extends State<PhonePickerDialog> {
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                    trailing: Text("${country.dialCode}+",
+                    trailing: Text("+${country.dialCode}",
                         style: const TextStyle(fontSize: 16)),
                   );
                 },
